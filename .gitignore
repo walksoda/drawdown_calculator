@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# アプリケーション固有
+static/*
+!static/.gitkeep
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# その他
+.DS_Store
+Thumbs.db
